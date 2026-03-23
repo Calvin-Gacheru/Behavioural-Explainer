@@ -1,0 +1,6 @@
+2026-03-21 22:34:56.655 | INFO     | src.vector_store:bootstrap:111 - Creating Qdrant collection 'behavioral_frameworks' (dim=384, metric=Cosine)
+2026-03-21 22:34:56.942 | DEBUG    | src.vector_store:_create_payload_indexes:221 -   Payload index created: source_document
+2026-03-21 22:34:57.068 | DEBUG    | src.vector_store:_create_payload_indexes:221 -   Payload index created: theory_category
+2026-03-21 22:34:57.069 | SUCCESS  | src.vector_store:bootstrap:134 - Collection 'behavioral_frameworks' created.
+2026-03-21 22:34:57.512 | INFO     | src.document_processor:run:137 - Discovered 5 PDF(s) in knowledge_base
+2026-03-21 22:36:04.869 | INFO     | src.document_processor:run:140 - Loaded 1035 raw document(s)
